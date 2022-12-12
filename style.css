@@ -187,6 +187,7 @@ body{
 
 .history{
     margin-top: 166px;
+    margin-bottom: 250px;
 }
 
 .history-title{
@@ -240,8 +241,51 @@ body{
     position: relative;
     margin-top: 150px;
 }
-
 .history-img{
     position: absolute;
     left: 100px;
+}
+
+/*Black block*/
+.black-block{
+    background-image: url("images/black-block-img.png");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.block-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.left-title{
+    color: #D67E35;
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.left-dsc{
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.right-btn{
+    background-color: #FF7400;
+    color: white;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition: background-color .2s;
+}
+
+.right-btn:hover{
+    background-color: #D67E35;
 }
