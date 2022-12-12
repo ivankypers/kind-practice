@@ -237,6 +237,11 @@ body{
     display: flex;
 }
 .history-images{
+    position: relative;
     margin-top: 150px;
-    margin-right: 125px;
+}
+
+.history-img{
+    position: absolute;
+    left: 100px;
 }
