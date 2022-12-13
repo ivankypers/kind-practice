@@ -337,14 +337,19 @@ body{
     margin-right: 30px;
 }
 
-.dishes-img{
-
+.dish-image{
+    border-radius: 10px;
 }
 
 .dish-card{
     display: flex;
     margin-bottom: 27px;
+
 }
+.pizza-image{
+    border-radius: 10px;
+}
+
 .dish{
     display: flex;
     padding-top: 40px;
