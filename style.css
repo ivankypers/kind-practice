@@ -521,6 +521,10 @@ body{
 
 }
 
+.gallery-title span{
+    color: #D67E35;
+}
+
 .gall-img-holder{
     margin-top: 60px;
 }
@@ -534,3 +538,33 @@ body{
 .gall-img{
     margin-right: 30px;
 }
+
+/*Cook*/
+
+.cook{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.cook-title{
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+
+}
+
+.cook-title span{
+    color: #D67E35;
+}
+
+.cook-images{
+    display: flex;
+    justify-content: center;
+    margin-top: 107px;
+    margin-bottom: 100px;
+}
+
+.cook-img{
+    margin-right: 30px;
+}
+
