@@ -337,14 +337,19 @@ body{
     margin-right: 30px;
 }
 
-.dishes-img{
-
+.dish-image{
+    border-radius: 10px;
 }
 
 .dish-card{
     display: flex;
     margin-bottom: 27px;
+
 }
+.pizza-image{
+    border-radius: 10px;
+}
+
 .dish{
     display: flex;
     padding-top: 40px;
@@ -364,6 +369,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 100px;
+    margin-top: 100px;
 
 }
 
@@ -460,4 +466,71 @@ body{
     position: absolute;
     right: 102px;
     bottom: 28px;
+}
+
+/*Feedback*/
+
+.feedback{
+    background-color: #E5E5E5;
+    padding-top: 108px;
+    padding-bottom: 139px;
+}
+.feedback-holder{
+    text-align: center;
+}
+
+.feedback-text{
+    padding: 0 260px;
+    text-align: center;
+    font-style: Italic;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.guest{
+
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.guest-image{
+    margin-top: 28px;
+
+}
+
+.guest-name{
+    padding-top: 9px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/*Gallery*/
+
+.gallery{
+    margin-top: 101px;
+    text-align: center;
+}
+
+.gallery-title{
+
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+
+}
+
+.gall-img-holder{
+    margin-top: 60px;
+}
+
+.gallery-images{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.gall-img{
+    margin-right: 30px;
 }
