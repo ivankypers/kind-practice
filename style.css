@@ -77,6 +77,10 @@ body{
 
 }
 
+.burger-menu{
+    display: none;
+}
+
 .header-title{
     color: #D67E35;
     font-family: 'Tinos', serif;
@@ -568,3 +572,158 @@ body{
     margin-right: 30px;
 }
 
+/*Footer*/
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 40px;
+}
+
+.footer-title{
+    color: white;
+    font-size: 26px;
+    font-family: 'Tinos', sans-serif;
+
+}
+
+/*----------------------------------------------------*/
+
+@media (max-width: 1500px) {
+    .gallery-images{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gall-img{
+
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .card {
+        font-size: 1em;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 1300px) {
+    .menu-cards{
+        display: block;
+    }
+
+    .menu-card{
+        margin: 20px auto;
+        width: 600px;
+    }
+
+    .header-title{
+        position: static;
+    }
+
+    .header-suptitle:before,
+    .header-suptitle:after{
+        content: none;
+    }
+
+    .cook-images{
+        display: block;
+
+    }
+
+    .cook-img{
+        margin-bottom: 20px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .block-holder{
+        display: block;
+
+    }
+
+    .left-title, .left-dsc, .right-button{
+        text-align: center;
+    }
+
+    .right-button{
+        margin-top: 30px;
+    }
+
+    .history-images{
+        display: none;
+    }
+
+    .history-title, .history-dsc, .history-number{
+        width: auto;
+    }
+
+    .pizza-image{
+        display: none;
+    }
+}
+
+@media (max-width: 1185px) {
+    .burger-menu{
+        display: block;
+    }
+    .nav,
+    .header-cart,
+    .header-contacts,
+    .header-btn{
+        display: none;
+    }
+    .header-line{
+        justify-content: space-between;
+    }
+
+    .feedback-text{
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 1000px ) {
+    .card-holder{
+        display: block;
+    }
+
+    .card{
+        width: auto;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media  (max-width: 920px) {
+    .history-holder{
+        display: block;
+    }
+
+    .menu-card,
+    .menu-img{
+        width: auto;
+    }
+
+    .card{
+
+        margin: 30px 0;
+    }
+
+    .high{
+        display: none;
+    }
+
+    .container{
+        margin: auto 40px;
+    }
+
+    .history-number-item{
+        font-size: 23px;
+    }
+
+    .left-dsc{
+        font-size: 21px;
+    }
+
+
+}
