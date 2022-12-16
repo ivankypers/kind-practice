@@ -153,7 +153,7 @@ body{
 
 .burger-slide{
     position: absolute;
-    display: none;
+
 }
 
 button{
@@ -161,6 +161,11 @@ button{
     outline: none;
     border: none;
 }
+
+.disp{
+    display: none;
+}
+
 /*Nav*/
 .nav{
 }
