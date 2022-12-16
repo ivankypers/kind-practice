@@ -146,6 +146,21 @@ body{
 .header-button:hover{
     background-color: #de5c1f;
 }
+/*Burger-slide*/
+.block{
+    display: block;
+}
+
+.burger-slide{
+    position: absolute;
+    display: none;
+}
+
+button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
 /*Nav*/
 .nav{
 }
